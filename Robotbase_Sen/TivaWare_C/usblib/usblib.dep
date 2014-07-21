@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1588431770</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\driverlib\sysctl.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbringbuf.pbi</file>
+      <file>$PROJ_DIR$\device\usbdcomp.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\driverlib\rom.h</file>
+      <file>$PROJ_DIR$\..\driverlib\rom_map.h</file>
+      <file>$PROJ_DIR$\..\driverlib\usb.h</file>
+      <file>$PROJ_DIR$\..\inc\hw_usb.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdhandler.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdhidkeyb.o</file>
+      <file>$PROJ_DIR$\usbaudio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbhhid.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdcdc.pbi</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbhhub.pbi</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbhmsc.pbi</file>
+      <file>$PROJ_DIR$\..\driverlib\debug.h</file>
+      <file>$PROJ_DIR$\..\inc\hw_types.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdma.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbtick.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\device\usbdbulk.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbkeyboardmap.pbi</file>
+      <file>$PROJ_DIR$\usbdfu.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbbuffer.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdenum.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdaudio.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbddfu-rt.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbhmsc.o</file>
+      <file>$PROJ_DIR$\usbbuffer.c</file>
+      <file>$PROJ_DIR$\device\usbdaudio.c</file>
+      <file>$PROJ_DIR$\device\usbdcdc.c</file>
+      <file>$PROJ_DIR$\device\usbdcdesc.c</file>
+      <file>$PROJ_DIR$\device\usbdbulk.c</file>
+      <file>$PROJ_DIR$\device\usbdcomp.c</file>
+      <file>$PROJ_DIR$\device\usbdconfig.c</file>
+      <file>$PROJ_DIR$\device\usbddfu-rt.c</file>
+      <file>$PROJ_DIR$\device\usbdenum.c</file>
+      <file>$PROJ_DIR$\usbdesc.c</file>
+      <file>$PROJ_DIR$\device\usbdhandler.c</file>
+      <file>$PROJ_DIR$\device\usbdhid.c</file>
+      <file>$PROJ_DIR$\device\usbdhidkeyb.c</file>
+      <file>$PROJ_DIR$\device\usbdmsc.c</file>
+      <file>$PROJ_DIR$\usbdma.c</file>
+      <file>$PROJ_DIR$\device\usbdhidmouse.c</file>
+      <file>$PROJ_DIR$\host\usbhaudio.c</file>
+      <file>$PROJ_DIR$\host\usbhhid.c</file>
+      <file>$PROJ_DIR$\host\usbhhub.c</file>
+      <file>$PROJ_DIR$\host\usbhhidmouse.c</file>
+      <file>$PROJ_DIR$\host\usbhhidkeyboard.c</file>
+      <file>$PROJ_DIR$\host\usbhmsc.c</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbhostenum.pbi</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbhscsi.pbi</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbhostenum.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbhhidkeyboard.o</file>
+      <file>$PROJ_DIR$\..\inc\hw_sysctl.h</file>
+      <file>$PROJ_DIR$\device\usbddfu-rt.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbhhidmouse.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbmode.pbi</file>
+      <file>$PROJ_DIR$\..\driverlib\interrupt.h</file>
+      <file>$PROJ_DIR$\device\usbdmsc.h</file>
+      <file>$PROJ_DIR$\usbmsc.h</file>
+      <file>$PROJ_DIR$\device\usbdhidkeyb.h</file>
+      <file>$PROJ_DIR$\device\usbdhid.h</file>
+      <file>$PROJ_DIR$\device\usbdevicepriv.h</file>
+      <file>$PROJ_DIR$\..\inc\hw_udma.h</file>
+      <file>$PROJ_DIR$\host\usbhhidmouse.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbtick.o</file>
+      <file>$PROJ_DIR$\host\usbhhid.h</file>
+      <file>$PROJ_DIR$\host\usbhaudio.h</file>
+      <file>$PROJ_DIR$\host\usbhostpriv.h</file>
+      <file>$PROJ_DIR$\..\driverlib\udma.h</file>
+      <file>$PROJ_DIR$\host\usbhost.h</file>
+      <file>$PROJ_DIR$\host\usbhmsc.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbhscsi.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdmsc.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbhhid.o</file>
+      <file>$PROJ_DIR$\host\usbhhub.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdhid.o</file>
+      <file>$PROJ_DIR$\host\usbhscsi.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdbulk.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdcomp.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdesc.o</file>
+      <file>$PROJ_DIR$\usbcdc.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdesc.pbi</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdhandler.pbi</file>
+      <file>$PROJ_DIR$\device\usbdhidmouse.h</file>
+      <file>$PROJ_DIR$\device\usbdcdc.h</file>
+      <file>$PROJ_DIR$\usb-ids.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdcdc.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdconfig.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdcomp.pbi</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdcdesc.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdenum.pbi</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdma.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdhid.pbi</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdcdesc.pbi</file>
+      <file>$PROJ_DIR$\ewarm\Exe\usblib.a</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdaudio.pbi</file>
+      <file>$PROJ_DIR$\host\usbhostenum.c</file>
+      <file>$PROJ_DIR$\host\usbhscsi.c</file>
+      <file>$PROJ_DIR$\usbkeyboardmap.c</file>
+      <file>$PROJ_DIR$\usbmode.c</file>
+      <file>$PROJ_DIR$\usbringbuf.c</file>
+      <file>$PROJ_DIR$\usbtick.c</file>
+      <file>$PROJ_DIR$\device\usbdevice.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbhhub.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbbuffer.pbi</file>
+      <file>$PROJ_DIR$\usblibpriv.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdhidmouse.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbmode.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdbulk.pbi</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbhhidkeyboard.pbi</file>
+      <file>$PROJ_DIR$\..\inc\hw_memmap.h</file>
+      <file>$PROJ_DIR$\usblib.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbhaudio.pbi</file>
+      <file>$PROJ_DIR$\device\usbdaudio.h</file>
+      <file>$PROJ_DIR$\host\usbhhidkeyboard.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbhhidmouse.pbi</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbddfu-rt.pbi</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdconfig.pbi</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbhaudio.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdhidmouse.pbi</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdmsc.pbi</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbdhidkeyb.pbi</file>
+      <file>$PROJ_DIR$\usbhid.h</file>
+      <file>$PROJ_DIR$\..\driverlib\systick.h</file>
+      <file>$PROJ_DIR$\..\inc\hw_ints.h</file>
+      <file>$PROJ_DIR$\..\inc\hw_nvic.h</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbkeyboardmap.o</file>
+      <file>$PROJ_DIR$\ewarm\Obj\usbringbuf.o</file>
+      <file>$PROJ_DIR$\..\driverlib\rtos_bindings.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>IARCHIVE</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\usbbuffer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 19 120 114</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 19 120 114</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\device\usbdaudio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 119 20 19 4 5 6 120 114 10 111 70 122</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 119 20 19 4 5 6 120 114 10 111 70 122</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\device\usbdcdc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 119 20 19 4 5 6 120 89 114 111 70 2 93</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 119 20 19 4 5 6 120 89 114 111 70 2 93</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\device\usbdcdesc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 19 6 120 114 111 70</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 19 6 120 114 111 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\device\usbdbulk.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 119 20 19 4 5 6 120 114 111 70 26 2</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 119 20 19 4 5 6 120 114 111 70 26 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\device\usbdcomp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 119 20 19 0 4 5 6 120 114 94 89 111 70 93 2</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 119 20 19 0 4 5 6 120 114 94 89 111 70 93 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\device\usbdconfig.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 119 20 19 6 120 114 111 70</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 119 20 19 6 120 114 111 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\device\usbddfu-rt.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 119 20 134 19 6 0 132 65 4 5 120 114 28 94 111 70 62</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 119 20 134 19 6 0 132 65 4 5 120 114 28 94 111 70 62</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\device\usbdenum.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 133 119 20 61 19 65 4 5 0 6 137 120 114 111 70</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 133 119 20 61 19 65 4 5 0 6 137 120 114 111 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\usbdesc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 120</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 120</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\device\usbdhandler.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 119 20 4 5 6 120 114 111 70</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 119 20 4 5 6 120 114 111 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\device\usbdhid.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 119 20 19 6 4 5 120 114 131 111 70 69</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 119 20 19 6 4 5 120 114 131 111 70 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\device\usbdhidkeyb.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 19 6 120 114 111 70 131 69 68</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 19 6 120 114 111 70 131 69 68</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\device\usbdmsc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 119 20 19 4 5 0 6 120 114 67 111 70 66</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 119 20 19 4 5 0 6 120 114 67 111 70 66</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\usbdma.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 119 20 133 61 71 19 65 137 6 4 5 77 120 114</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 119 20 133 61 71 19 65 137 6 4 5 77 120 114</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\device\usbdhidmouse.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 115</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 19 6 120 114 111 70 131 69 92</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 19 6 120 114 111 70 131 69 92</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\host\usbhaudio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 127</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 6 120 114 10 78 76 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 6 120 114 10 78 76 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\host\usbhhid.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 6 120 114 131 78 76 74</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 6 120 114 131 78 76 74</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\host\usbhhub.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 133 61 6 65 5 137 120 78 76 83</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 133 61 6 65 5 137 120 78 76 83</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\host\usbhhidmouse.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 120 78 131 74 72</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 120 78 131 74 72</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\host\usbhhidkeyboard.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 120 78 131 74 123</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 120 78 131 74 123</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\host\usbhmsc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 6 120 114 67 78 76 79 85</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 6 120 114 67 78 76 79 85</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\host\usbhostenum.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 133 119 61 20 4 5 19 65 0 6 137 120 114 78 76 83</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 133 119 61 20 4 5 19 65 0 6 137 120 114 78 76 83</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\host\usbhscsi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 120 67 78 79 85</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 120 67 78 79 85</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\usbkeyboardmap.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 135</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 120 131</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 120 131</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\usbmode.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 116</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 133 119 20 61 7 19 65 4 5 0 6 137 120 114 111 70 78 76</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 133 119 20 61 7 19 65 4 5 0 6 137 120 114 111 70 78 76</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\usbringbuf.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 136</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 19 65 120</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 19 65 120</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\usbtick.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 19 120 114</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 25 21 32 3 12 11 15 13 20 19 120 114</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+
