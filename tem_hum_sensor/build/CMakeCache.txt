@@ -244,6 +244,12 @@ cereal_port_LIB_DEPENDS:STATIC=
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/hydro/share/cpp_common/cmake
 
+//Value Computed by CMake
+feel_BINARY_DIR:STATIC=/home/vuhoang/tem_hum_sensor/build/feel
+
+//Value Computed by CMake
+feel_SOURCE_DIR:STATIC=/home/vuhoang/tem_hum_sensor/src/feel
+
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/hydro/share/gencpp/cmake
 

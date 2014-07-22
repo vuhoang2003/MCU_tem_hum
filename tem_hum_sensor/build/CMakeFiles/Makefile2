@@ -252,646 +252,415 @@ clean: gtest/CMakeFiles/gtest_main.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory temp_hum
+# Directory level rules for directory feel
 
 # Convenience name for "all" pass in the directory.
-temp_hum/all: temp_hum/CMakeFiles/cereal_port.dir/all
-temp_hum/all: temp_hum/CMakeFiles/listener.dir/all
-temp_hum/all: temp_hum/CMakeFiles/talker.dir/all
-temp_hum/all: temp_hum/CMakeFiles/temp_hum_generate_messages.dir/all
-.PHONY : temp_hum/all
+feel/all: feel/CMakeFiles/cereal_port.dir/all
+feel/all: feel/CMakeFiles/listener.dir/all
+feel/all: feel/CMakeFiles/talker.dir/all
+.PHONY : feel/all
 
 # Convenience name for "clean" pass in the directory.
-temp_hum/clean: temp_hum/CMakeFiles/cereal_port.dir/clean
-temp_hum/clean: temp_hum/CMakeFiles/listener.dir/clean
-temp_hum/clean: temp_hum/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-temp_hum/clean: temp_hum/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-temp_hum/clean: temp_hum/CMakeFiles/roscpp_generate_messages_py.dir/clean
-temp_hum/clean: temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-temp_hum/clean: temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-temp_hum/clean: temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-temp_hum/clean: temp_hum/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-temp_hum/clean: temp_hum/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-temp_hum/clean: temp_hum/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-temp_hum/clean: temp_hum/CMakeFiles/talker.dir/clean
-temp_hum/clean: temp_hum/CMakeFiles/temp_hum_gencpp.dir/clean
-temp_hum/clean: temp_hum/CMakeFiles/temp_hum_generate_messages.dir/clean
-temp_hum/clean: temp_hum/CMakeFiles/temp_hum_generate_messages_cpp.dir/clean
-temp_hum/clean: temp_hum/CMakeFiles/temp_hum_generate_messages_lisp.dir/clean
-temp_hum/clean: temp_hum/CMakeFiles/temp_hum_generate_messages_py.dir/clean
-temp_hum/clean: temp_hum/CMakeFiles/temp_hum_genlisp.dir/clean
-temp_hum/clean: temp_hum/CMakeFiles/temp_hum_genpy.dir/clean
-.PHONY : temp_hum/clean
+feel/clean: feel/CMakeFiles/cereal_port.dir/clean
+feel/clean: feel/CMakeFiles/listener.dir/clean
+feel/clean: feel/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+feel/clean: feel/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+feel/clean: feel/CMakeFiles/roscpp_generate_messages_py.dir/clean
+feel/clean: feel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+feel/clean: feel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+feel/clean: feel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+feel/clean: feel/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+feel/clean: feel/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+feel/clean: feel/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+feel/clean: feel/CMakeFiles/talker.dir/clean
+.PHONY : feel/clean
 
 # Convenience name for "preinstall" pass in the directory.
-temp_hum/preinstall:
-.PHONY : temp_hum/preinstall
+feel/preinstall:
+.PHONY : feel/preinstall
 
 #=============================================================================
-# Target rules for target temp_hum/CMakeFiles/cereal_port.dir
+# Target rules for target feel/CMakeFiles/cereal_port.dir
 
 # All Build rule for target.
-temp_hum/CMakeFiles/cereal_port.dir/all:
-	$(MAKE) -f temp_hum/CMakeFiles/cereal_port.dir/build.make temp_hum/CMakeFiles/cereal_port.dir/depend
-	$(MAKE) -f temp_hum/CMakeFiles/cereal_port.dir/build.make temp_hum/CMakeFiles/cereal_port.dir/build
+feel/CMakeFiles/cereal_port.dir/all:
+	$(MAKE) -f feel/CMakeFiles/cereal_port.dir/build.make feel/CMakeFiles/cereal_port.dir/depend
+	$(MAKE) -f feel/CMakeFiles/cereal_port.dir/build.make feel/CMakeFiles/cereal_port.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/vuhoang/tem_hum_sensor/build/CMakeFiles  1
 	@echo "Built target cereal_port"
-.PHONY : temp_hum/CMakeFiles/cereal_port.dir/all
+.PHONY : feel/CMakeFiles/cereal_port.dir/all
 
 # Include target in all.
-all: temp_hum/CMakeFiles/cereal_port.dir/all
+all: feel/CMakeFiles/cereal_port.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-temp_hum/CMakeFiles/cereal_port.dir/rule: cmake_check_build_system
+feel/CMakeFiles/cereal_port.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 temp_hum/CMakeFiles/cereal_port.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 feel/CMakeFiles/cereal_port.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-.PHONY : temp_hum/CMakeFiles/cereal_port.dir/rule
+.PHONY : feel/CMakeFiles/cereal_port.dir/rule
 
 # Convenience name for target.
-cereal_port: temp_hum/CMakeFiles/cereal_port.dir/rule
+cereal_port: feel/CMakeFiles/cereal_port.dir/rule
 .PHONY : cereal_port
 
 # clean rule for target.
-temp_hum/CMakeFiles/cereal_port.dir/clean:
-	$(MAKE) -f temp_hum/CMakeFiles/cereal_port.dir/build.make temp_hum/CMakeFiles/cereal_port.dir/clean
-.PHONY : temp_hum/CMakeFiles/cereal_port.dir/clean
+feel/CMakeFiles/cereal_port.dir/clean:
+	$(MAKE) -f feel/CMakeFiles/cereal_port.dir/build.make feel/CMakeFiles/cereal_port.dir/clean
+.PHONY : feel/CMakeFiles/cereal_port.dir/clean
 
 # clean rule for target.
-clean: temp_hum/CMakeFiles/cereal_port.dir/clean
+clean: feel/CMakeFiles/cereal_port.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target temp_hum/CMakeFiles/listener.dir
+# Target rules for target feel/CMakeFiles/listener.dir
 
 # All Build rule for target.
-temp_hum/CMakeFiles/listener.dir/all:
-	$(MAKE) -f temp_hum/CMakeFiles/listener.dir/build.make temp_hum/CMakeFiles/listener.dir/depend
-	$(MAKE) -f temp_hum/CMakeFiles/listener.dir/build.make temp_hum/CMakeFiles/listener.dir/build
+feel/CMakeFiles/listener.dir/all:
+	$(MAKE) -f feel/CMakeFiles/listener.dir/build.make feel/CMakeFiles/listener.dir/depend
+	$(MAKE) -f feel/CMakeFiles/listener.dir/build.make feel/CMakeFiles/listener.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/vuhoang/tem_hum_sensor/build/CMakeFiles  5
 	@echo "Built target listener"
-.PHONY : temp_hum/CMakeFiles/listener.dir/all
+.PHONY : feel/CMakeFiles/listener.dir/all
 
 # Include target in all.
-all: temp_hum/CMakeFiles/listener.dir/all
+all: feel/CMakeFiles/listener.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-temp_hum/CMakeFiles/listener.dir/rule: cmake_check_build_system
+feel/CMakeFiles/listener.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 temp_hum/CMakeFiles/listener.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 feel/CMakeFiles/listener.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-.PHONY : temp_hum/CMakeFiles/listener.dir/rule
+.PHONY : feel/CMakeFiles/listener.dir/rule
 
 # Convenience name for target.
-listener: temp_hum/CMakeFiles/listener.dir/rule
+listener: feel/CMakeFiles/listener.dir/rule
 .PHONY : listener
 
 # clean rule for target.
-temp_hum/CMakeFiles/listener.dir/clean:
-	$(MAKE) -f temp_hum/CMakeFiles/listener.dir/build.make temp_hum/CMakeFiles/listener.dir/clean
-.PHONY : temp_hum/CMakeFiles/listener.dir/clean
+feel/CMakeFiles/listener.dir/clean:
+	$(MAKE) -f feel/CMakeFiles/listener.dir/build.make feel/CMakeFiles/listener.dir/clean
+.PHONY : feel/CMakeFiles/listener.dir/clean
 
 # clean rule for target.
-clean: temp_hum/CMakeFiles/listener.dir/clean
+clean: feel/CMakeFiles/listener.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target temp_hum/CMakeFiles/roscpp_generate_messages_cpp.dir
+# Target rules for target feel/CMakeFiles/roscpp_generate_messages_cpp.dir
 
 # All Build rule for target.
-temp_hum/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
-	$(MAKE) -f temp_hum/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make temp_hum/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
-	$(MAKE) -f temp_hum/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make temp_hum/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+feel/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
+	$(MAKE) -f feel/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make feel/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
+	$(MAKE) -f feel/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make feel/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/vuhoang/tem_hum_sensor/build/CMakeFiles 
 	@echo "Built target roscpp_generate_messages_cpp"
-.PHONY : temp_hum/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+.PHONY : feel/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-temp_hum/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
+feel/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 temp_hum/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 feel/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-.PHONY : temp_hum/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+.PHONY : feel/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_cpp: temp_hum/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+roscpp_generate_messages_cpp: feel/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : roscpp_generate_messages_cpp
 
 # clean rule for target.
-temp_hum/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
-	$(MAKE) -f temp_hum/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make temp_hum/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-.PHONY : temp_hum/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+feel/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
+	$(MAKE) -f feel/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make feel/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+.PHONY : feel/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: temp_hum/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+clean: feel/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target temp_hum/CMakeFiles/roscpp_generate_messages_lisp.dir
+# Target rules for target feel/CMakeFiles/roscpp_generate_messages_lisp.dir
 
 # All Build rule for target.
-temp_hum/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
-	$(MAKE) -f temp_hum/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make temp_hum/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
-	$(MAKE) -f temp_hum/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make temp_hum/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+feel/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
+	$(MAKE) -f feel/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make feel/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
+	$(MAKE) -f feel/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make feel/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/vuhoang/tem_hum_sensor/build/CMakeFiles 
 	@echo "Built target roscpp_generate_messages_lisp"
-.PHONY : temp_hum/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+.PHONY : feel/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-temp_hum/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
+feel/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 temp_hum/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 feel/CMakeFiles/roscpp_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-.PHONY : temp_hum/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+.PHONY : feel/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_lisp: temp_hum/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+roscpp_generate_messages_lisp: feel/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : roscpp_generate_messages_lisp
 
 # clean rule for target.
-temp_hum/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
-	$(MAKE) -f temp_hum/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make temp_hum/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-.PHONY : temp_hum/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+feel/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
+	$(MAKE) -f feel/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make feel/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+.PHONY : feel/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: temp_hum/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+clean: feel/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target temp_hum/CMakeFiles/roscpp_generate_messages_py.dir
+# Target rules for target feel/CMakeFiles/roscpp_generate_messages_py.dir
 
 # All Build rule for target.
-temp_hum/CMakeFiles/roscpp_generate_messages_py.dir/all:
-	$(MAKE) -f temp_hum/CMakeFiles/roscpp_generate_messages_py.dir/build.make temp_hum/CMakeFiles/roscpp_generate_messages_py.dir/depend
-	$(MAKE) -f temp_hum/CMakeFiles/roscpp_generate_messages_py.dir/build.make temp_hum/CMakeFiles/roscpp_generate_messages_py.dir/build
+feel/CMakeFiles/roscpp_generate_messages_py.dir/all:
+	$(MAKE) -f feel/CMakeFiles/roscpp_generate_messages_py.dir/build.make feel/CMakeFiles/roscpp_generate_messages_py.dir/depend
+	$(MAKE) -f feel/CMakeFiles/roscpp_generate_messages_py.dir/build.make feel/CMakeFiles/roscpp_generate_messages_py.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/vuhoang/tem_hum_sensor/build/CMakeFiles 
 	@echo "Built target roscpp_generate_messages_py"
-.PHONY : temp_hum/CMakeFiles/roscpp_generate_messages_py.dir/all
+.PHONY : feel/CMakeFiles/roscpp_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-temp_hum/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
+feel/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 temp_hum/CMakeFiles/roscpp_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 feel/CMakeFiles/roscpp_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-.PHONY : temp_hum/CMakeFiles/roscpp_generate_messages_py.dir/rule
+.PHONY : feel/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_py: temp_hum/CMakeFiles/roscpp_generate_messages_py.dir/rule
+roscpp_generate_messages_py: feel/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : roscpp_generate_messages_py
 
 # clean rule for target.
-temp_hum/CMakeFiles/roscpp_generate_messages_py.dir/clean:
-	$(MAKE) -f temp_hum/CMakeFiles/roscpp_generate_messages_py.dir/build.make temp_hum/CMakeFiles/roscpp_generate_messages_py.dir/clean
-.PHONY : temp_hum/CMakeFiles/roscpp_generate_messages_py.dir/clean
+feel/CMakeFiles/roscpp_generate_messages_py.dir/clean:
+	$(MAKE) -f feel/CMakeFiles/roscpp_generate_messages_py.dir/build.make feel/CMakeFiles/roscpp_generate_messages_py.dir/clean
+.PHONY : feel/CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: temp_hum/CMakeFiles/roscpp_generate_messages_py.dir/clean
+clean: feel/CMakeFiles/roscpp_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
+# Target rules for target feel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
-temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+feel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f feel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make feel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f feel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make feel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/vuhoang/tem_hum_sensor/build/CMakeFiles 
 	@echo "Built target rosgraph_msgs_generate_messages_cpp"
-.PHONY : temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+.PHONY : feel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+feel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 feel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-.PHONY : temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+.PHONY : feel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+rosgraph_msgs_generate_messages_cpp: feel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : rosgraph_msgs_generate_messages_cpp
 
 # clean rule for target.
-temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-.PHONY : temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+feel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f feel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make feel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+.PHONY : feel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+clean: feel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
+# Target rules for target feel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+feel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f feel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make feel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f feel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make feel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/vuhoang/tem_hum_sensor/build/CMakeFiles 
 	@echo "Built target rosgraph_msgs_generate_messages_lisp"
-.PHONY : temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+.PHONY : feel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+feel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 feel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-.PHONY : temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+.PHONY : feel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+rosgraph_msgs_generate_messages_lisp: feel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : rosgraph_msgs_generate_messages_lisp
 
 # clean rule for target.
-temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-.PHONY : temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+feel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f feel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make feel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+.PHONY : feel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+clean: feel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
+# Target rules for target feel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
 
 # All Build rule for target.
-temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+feel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f feel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make feel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f feel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make feel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/vuhoang/tem_hum_sensor/build/CMakeFiles 
 	@echo "Built target rosgraph_msgs_generate_messages_py"
-.PHONY : temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+.PHONY : feel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+feel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 feel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-.PHONY : temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+.PHONY : feel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_py: temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+rosgraph_msgs_generate_messages_py: feel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : rosgraph_msgs_generate_messages_py
 
 # clean rule for target.
-temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-.PHONY : temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+feel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f feel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make feel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+.PHONY : feel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: temp_hum/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+clean: feel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target temp_hum/CMakeFiles/std_msgs_generate_messages_cpp.dir
+# Target rules for target feel/CMakeFiles/std_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
-temp_hum/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f temp_hum/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make temp_hum/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f temp_hum/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make temp_hum/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+feel/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f feel/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make feel/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f feel/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make feel/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/vuhoang/tem_hum_sensor/build/CMakeFiles 
 	@echo "Built target std_msgs_generate_messages_cpp"
-.PHONY : temp_hum/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+.PHONY : feel/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-temp_hum/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+feel/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 temp_hum/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 feel/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-.PHONY : temp_hum/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+.PHONY : feel/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_cpp: temp_hum/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+std_msgs_generate_messages_cpp: feel/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : std_msgs_generate_messages_cpp
 
 # clean rule for target.
-temp_hum/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f temp_hum/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make temp_hum/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-.PHONY : temp_hum/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+feel/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f feel/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make feel/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+.PHONY : feel/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 
 # clean rule for target.
-clean: temp_hum/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+clean: feel/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target temp_hum/CMakeFiles/std_msgs_generate_messages_lisp.dir
+# Target rules for target feel/CMakeFiles/std_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-temp_hum/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f temp_hum/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make temp_hum/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f temp_hum/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make temp_hum/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+feel/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f feel/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make feel/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f feel/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make feel/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/vuhoang/tem_hum_sensor/build/CMakeFiles 
 	@echo "Built target std_msgs_generate_messages_lisp"
-.PHONY : temp_hum/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+.PHONY : feel/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-temp_hum/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+feel/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 temp_hum/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 feel/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-.PHONY : temp_hum/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : feel/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_lisp: temp_hum/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+std_msgs_generate_messages_lisp: feel/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 .PHONY : std_msgs_generate_messages_lisp
 
 # clean rule for target.
-temp_hum/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f temp_hum/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make temp_hum/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-.PHONY : temp_hum/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+feel/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f feel/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make feel/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+.PHONY : feel/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-clean: temp_hum/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+clean: feel/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target temp_hum/CMakeFiles/std_msgs_generate_messages_py.dir
+# Target rules for target feel/CMakeFiles/std_msgs_generate_messages_py.dir
 
 # All Build rule for target.
-temp_hum/CMakeFiles/std_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f temp_hum/CMakeFiles/std_msgs_generate_messages_py.dir/build.make temp_hum/CMakeFiles/std_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f temp_hum/CMakeFiles/std_msgs_generate_messages_py.dir/build.make temp_hum/CMakeFiles/std_msgs_generate_messages_py.dir/build
+feel/CMakeFiles/std_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f feel/CMakeFiles/std_msgs_generate_messages_py.dir/build.make feel/CMakeFiles/std_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f feel/CMakeFiles/std_msgs_generate_messages_py.dir/build.make feel/CMakeFiles/std_msgs_generate_messages_py.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/vuhoang/tem_hum_sensor/build/CMakeFiles 
 	@echo "Built target std_msgs_generate_messages_py"
-.PHONY : temp_hum/CMakeFiles/std_msgs_generate_messages_py.dir/all
+.PHONY : feel/CMakeFiles/std_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-temp_hum/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+feel/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 temp_hum/CMakeFiles/std_msgs_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 feel/CMakeFiles/std_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-.PHONY : temp_hum/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+.PHONY : feel/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_py: temp_hum/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+std_msgs_generate_messages_py: feel/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : std_msgs_generate_messages_py
 
 # clean rule for target.
-temp_hum/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f temp_hum/CMakeFiles/std_msgs_generate_messages_py.dir/build.make temp_hum/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-.PHONY : temp_hum/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+feel/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f feel/CMakeFiles/std_msgs_generate_messages_py.dir/build.make feel/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+.PHONY : feel/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 # clean rule for target.
-clean: temp_hum/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+clean: feel/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target temp_hum/CMakeFiles/talker.dir
+# Target rules for target feel/CMakeFiles/talker.dir
 
 # All Build rule for target.
-temp_hum/CMakeFiles/talker.dir/all: temp_hum/CMakeFiles/cereal_port.dir/all
-	$(MAKE) -f temp_hum/CMakeFiles/talker.dir/build.make temp_hum/CMakeFiles/talker.dir/depend
-	$(MAKE) -f temp_hum/CMakeFiles/talker.dir/build.make temp_hum/CMakeFiles/talker.dir/build
+feel/CMakeFiles/talker.dir/all: feel/CMakeFiles/cereal_port.dir/all
+	$(MAKE) -f feel/CMakeFiles/talker.dir/build.make feel/CMakeFiles/talker.dir/depend
+	$(MAKE) -f feel/CMakeFiles/talker.dir/build.make feel/CMakeFiles/talker.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/vuhoang/tem_hum_sensor/build/CMakeFiles  6
 	@echo "Built target talker"
-.PHONY : temp_hum/CMakeFiles/talker.dir/all
+.PHONY : feel/CMakeFiles/talker.dir/all
 
 # Include target in all.
-all: temp_hum/CMakeFiles/talker.dir/all
+all: feel/CMakeFiles/talker.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-temp_hum/CMakeFiles/talker.dir/rule: cmake_check_build_system
+feel/CMakeFiles/talker.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 temp_hum/CMakeFiles/talker.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 feel/CMakeFiles/talker.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-.PHONY : temp_hum/CMakeFiles/talker.dir/rule
+.PHONY : feel/CMakeFiles/talker.dir/rule
 
 # Convenience name for target.
-talker: temp_hum/CMakeFiles/talker.dir/rule
+talker: feel/CMakeFiles/talker.dir/rule
 .PHONY : talker
 
 # clean rule for target.
-temp_hum/CMakeFiles/talker.dir/clean:
-	$(MAKE) -f temp_hum/CMakeFiles/talker.dir/build.make temp_hum/CMakeFiles/talker.dir/clean
-.PHONY : temp_hum/CMakeFiles/talker.dir/clean
+feel/CMakeFiles/talker.dir/clean:
+	$(MAKE) -f feel/CMakeFiles/talker.dir/build.make feel/CMakeFiles/talker.dir/clean
+.PHONY : feel/CMakeFiles/talker.dir/clean
 
 # clean rule for target.
-clean: temp_hum/CMakeFiles/talker.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target temp_hum/CMakeFiles/temp_hum_gencpp.dir
-
-# All Build rule for target.
-temp_hum/CMakeFiles/temp_hum_gencpp.dir/all: temp_hum/CMakeFiles/temp_hum_generate_messages_cpp.dir/all
-	$(MAKE) -f temp_hum/CMakeFiles/temp_hum_gencpp.dir/build.make temp_hum/CMakeFiles/temp_hum_gencpp.dir/depend
-	$(MAKE) -f temp_hum/CMakeFiles/temp_hum_gencpp.dir/build.make temp_hum/CMakeFiles/temp_hum_gencpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vuhoang/tem_hum_sensor/build/CMakeFiles 
-	@echo "Built target temp_hum_gencpp"
-.PHONY : temp_hum/CMakeFiles/temp_hum_gencpp.dir/all
-
-# Build rule for subdir invocation for target.
-temp_hum/CMakeFiles/temp_hum_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 temp_hum/CMakeFiles/temp_hum_gencpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-.PHONY : temp_hum/CMakeFiles/temp_hum_gencpp.dir/rule
-
-# Convenience name for target.
-temp_hum_gencpp: temp_hum/CMakeFiles/temp_hum_gencpp.dir/rule
-.PHONY : temp_hum_gencpp
-
-# clean rule for target.
-temp_hum/CMakeFiles/temp_hum_gencpp.dir/clean:
-	$(MAKE) -f temp_hum/CMakeFiles/temp_hum_gencpp.dir/build.make temp_hum/CMakeFiles/temp_hum_gencpp.dir/clean
-.PHONY : temp_hum/CMakeFiles/temp_hum_gencpp.dir/clean
-
-# clean rule for target.
-clean: temp_hum/CMakeFiles/temp_hum_gencpp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target temp_hum/CMakeFiles/temp_hum_generate_messages.dir
-
-# All Build rule for target.
-temp_hum/CMakeFiles/temp_hum_generate_messages.dir/all: temp_hum/CMakeFiles/temp_hum_generate_messages_cpp.dir/all
-temp_hum/CMakeFiles/temp_hum_generate_messages.dir/all: temp_hum/CMakeFiles/temp_hum_generate_messages_lisp.dir/all
-temp_hum/CMakeFiles/temp_hum_generate_messages.dir/all: temp_hum/CMakeFiles/temp_hum_generate_messages_py.dir/all
-	$(MAKE) -f temp_hum/CMakeFiles/temp_hum_generate_messages.dir/build.make temp_hum/CMakeFiles/temp_hum_generate_messages.dir/depend
-	$(MAKE) -f temp_hum/CMakeFiles/temp_hum_generate_messages.dir/build.make temp_hum/CMakeFiles/temp_hum_generate_messages.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vuhoang/tem_hum_sensor/build/CMakeFiles 
-	@echo "Built target temp_hum_generate_messages"
-.PHONY : temp_hum/CMakeFiles/temp_hum_generate_messages.dir/all
-
-# Include target in all.
-all: temp_hum/CMakeFiles/temp_hum_generate_messages.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-temp_hum/CMakeFiles/temp_hum_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 8
-	$(MAKE) -f CMakeFiles/Makefile2 temp_hum/CMakeFiles/temp_hum_generate_messages.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-.PHONY : temp_hum/CMakeFiles/temp_hum_generate_messages.dir/rule
-
-# Convenience name for target.
-temp_hum_generate_messages: temp_hum/CMakeFiles/temp_hum_generate_messages.dir/rule
-.PHONY : temp_hum_generate_messages
-
-# clean rule for target.
-temp_hum/CMakeFiles/temp_hum_generate_messages.dir/clean:
-	$(MAKE) -f temp_hum/CMakeFiles/temp_hum_generate_messages.dir/build.make temp_hum/CMakeFiles/temp_hum_generate_messages.dir/clean
-.PHONY : temp_hum/CMakeFiles/temp_hum_generate_messages.dir/clean
-
-# clean rule for target.
-clean: temp_hum/CMakeFiles/temp_hum_generate_messages.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target temp_hum/CMakeFiles/temp_hum_generate_messages_cpp.dir
-
-# All Build rule for target.
-temp_hum/CMakeFiles/temp_hum_generate_messages_cpp.dir/all: temp_hum/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-	$(MAKE) -f temp_hum/CMakeFiles/temp_hum_generate_messages_cpp.dir/build.make temp_hum/CMakeFiles/temp_hum_generate_messages_cpp.dir/depend
-	$(MAKE) -f temp_hum/CMakeFiles/temp_hum_generate_messages_cpp.dir/build.make temp_hum/CMakeFiles/temp_hum_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vuhoang/tem_hum_sensor/build/CMakeFiles  7 8
-	@echo "Built target temp_hum_generate_messages_cpp"
-.PHONY : temp_hum/CMakeFiles/temp_hum_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-temp_hum/CMakeFiles/temp_hum_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 temp_hum/CMakeFiles/temp_hum_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-.PHONY : temp_hum/CMakeFiles/temp_hum_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-temp_hum_generate_messages_cpp: temp_hum/CMakeFiles/temp_hum_generate_messages_cpp.dir/rule
-.PHONY : temp_hum_generate_messages_cpp
-
-# clean rule for target.
-temp_hum/CMakeFiles/temp_hum_generate_messages_cpp.dir/clean:
-	$(MAKE) -f temp_hum/CMakeFiles/temp_hum_generate_messages_cpp.dir/build.make temp_hum/CMakeFiles/temp_hum_generate_messages_cpp.dir/clean
-.PHONY : temp_hum/CMakeFiles/temp_hum_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: temp_hum/CMakeFiles/temp_hum_generate_messages_cpp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target temp_hum/CMakeFiles/temp_hum_generate_messages_lisp.dir
-
-# All Build rule for target.
-temp_hum/CMakeFiles/temp_hum_generate_messages_lisp.dir/all: temp_hum/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-	$(MAKE) -f temp_hum/CMakeFiles/temp_hum_generate_messages_lisp.dir/build.make temp_hum/CMakeFiles/temp_hum_generate_messages_lisp.dir/depend
-	$(MAKE) -f temp_hum/CMakeFiles/temp_hum_generate_messages_lisp.dir/build.make temp_hum/CMakeFiles/temp_hum_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vuhoang/tem_hum_sensor/build/CMakeFiles  9 10
-	@echo "Built target temp_hum_generate_messages_lisp"
-.PHONY : temp_hum/CMakeFiles/temp_hum_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-temp_hum/CMakeFiles/temp_hum_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 temp_hum/CMakeFiles/temp_hum_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-.PHONY : temp_hum/CMakeFiles/temp_hum_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-temp_hum_generate_messages_lisp: temp_hum/CMakeFiles/temp_hum_generate_messages_lisp.dir/rule
-.PHONY : temp_hum_generate_messages_lisp
-
-# clean rule for target.
-temp_hum/CMakeFiles/temp_hum_generate_messages_lisp.dir/clean:
-	$(MAKE) -f temp_hum/CMakeFiles/temp_hum_generate_messages_lisp.dir/build.make temp_hum/CMakeFiles/temp_hum_generate_messages_lisp.dir/clean
-.PHONY : temp_hum/CMakeFiles/temp_hum_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: temp_hum/CMakeFiles/temp_hum_generate_messages_lisp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target temp_hum/CMakeFiles/temp_hum_generate_messages_py.dir
-
-# All Build rule for target.
-temp_hum/CMakeFiles/temp_hum_generate_messages_py.dir/all: temp_hum/CMakeFiles/std_msgs_generate_messages_py.dir/all
-	$(MAKE) -f temp_hum/CMakeFiles/temp_hum_generate_messages_py.dir/build.make temp_hum/CMakeFiles/temp_hum_generate_messages_py.dir/depend
-	$(MAKE) -f temp_hum/CMakeFiles/temp_hum_generate_messages_py.dir/build.make temp_hum/CMakeFiles/temp_hum_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vuhoang/tem_hum_sensor/build/CMakeFiles  11 12 13 14
-	@echo "Built target temp_hum_generate_messages_py"
-.PHONY : temp_hum/CMakeFiles/temp_hum_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-temp_hum/CMakeFiles/temp_hum_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 temp_hum/CMakeFiles/temp_hum_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-.PHONY : temp_hum/CMakeFiles/temp_hum_generate_messages_py.dir/rule
-
-# Convenience name for target.
-temp_hum_generate_messages_py: temp_hum/CMakeFiles/temp_hum_generate_messages_py.dir/rule
-.PHONY : temp_hum_generate_messages_py
-
-# clean rule for target.
-temp_hum/CMakeFiles/temp_hum_generate_messages_py.dir/clean:
-	$(MAKE) -f temp_hum/CMakeFiles/temp_hum_generate_messages_py.dir/build.make temp_hum/CMakeFiles/temp_hum_generate_messages_py.dir/clean
-.PHONY : temp_hum/CMakeFiles/temp_hum_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: temp_hum/CMakeFiles/temp_hum_generate_messages_py.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target temp_hum/CMakeFiles/temp_hum_genlisp.dir
-
-# All Build rule for target.
-temp_hum/CMakeFiles/temp_hum_genlisp.dir/all: temp_hum/CMakeFiles/temp_hum_generate_messages_lisp.dir/all
-	$(MAKE) -f temp_hum/CMakeFiles/temp_hum_genlisp.dir/build.make temp_hum/CMakeFiles/temp_hum_genlisp.dir/depend
-	$(MAKE) -f temp_hum/CMakeFiles/temp_hum_genlisp.dir/build.make temp_hum/CMakeFiles/temp_hum_genlisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vuhoang/tem_hum_sensor/build/CMakeFiles 
-	@echo "Built target temp_hum_genlisp"
-.PHONY : temp_hum/CMakeFiles/temp_hum_genlisp.dir/all
-
-# Build rule for subdir invocation for target.
-temp_hum/CMakeFiles/temp_hum_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 temp_hum/CMakeFiles/temp_hum_genlisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-.PHONY : temp_hum/CMakeFiles/temp_hum_genlisp.dir/rule
-
-# Convenience name for target.
-temp_hum_genlisp: temp_hum/CMakeFiles/temp_hum_genlisp.dir/rule
-.PHONY : temp_hum_genlisp
-
-# clean rule for target.
-temp_hum/CMakeFiles/temp_hum_genlisp.dir/clean:
-	$(MAKE) -f temp_hum/CMakeFiles/temp_hum_genlisp.dir/build.make temp_hum/CMakeFiles/temp_hum_genlisp.dir/clean
-.PHONY : temp_hum/CMakeFiles/temp_hum_genlisp.dir/clean
-
-# clean rule for target.
-clean: temp_hum/CMakeFiles/temp_hum_genlisp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target temp_hum/CMakeFiles/temp_hum_genpy.dir
-
-# All Build rule for target.
-temp_hum/CMakeFiles/temp_hum_genpy.dir/all: temp_hum/CMakeFiles/temp_hum_generate_messages_py.dir/all
-	$(MAKE) -f temp_hum/CMakeFiles/temp_hum_genpy.dir/build.make temp_hum/CMakeFiles/temp_hum_genpy.dir/depend
-	$(MAKE) -f temp_hum/CMakeFiles/temp_hum_genpy.dir/build.make temp_hum/CMakeFiles/temp_hum_genpy.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vuhoang/tem_hum_sensor/build/CMakeFiles 
-	@echo "Built target temp_hum_genpy"
-.PHONY : temp_hum/CMakeFiles/temp_hum_genpy.dir/all
-
-# Build rule for subdir invocation for target.
-temp_hum/CMakeFiles/temp_hum_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 temp_hum/CMakeFiles/temp_hum_genpy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vuhoang/tem_hum_sensor/build/CMakeFiles 0
-.PHONY : temp_hum/CMakeFiles/temp_hum_genpy.dir/rule
-
-# Convenience name for target.
-temp_hum_genpy: temp_hum/CMakeFiles/temp_hum_genpy.dir/rule
-.PHONY : temp_hum_genpy
-
-# clean rule for target.
-temp_hum/CMakeFiles/temp_hum_genpy.dir/clean:
-	$(MAKE) -f temp_hum/CMakeFiles/temp_hum_genpy.dir/build.make temp_hum/CMakeFiles/temp_hum_genpy.dir/clean
-.PHONY : temp_hum/CMakeFiles/temp_hum_genpy.dir/clean
-
-# clean rule for target.
-clean: temp_hum/CMakeFiles/temp_hum_genpy.dir/clean
+clean: feel/CMakeFiles/talker.dir/clean
 .PHONY : clean
 
 #=============================================================================
