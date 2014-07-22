@@ -1,8 +1,0 @@
-prefix=/home/vuhoang/tem_hum_sensor/install
-
-Name: Temp_Hum
-Description: Description of Temp_Hum
-Version: 0.0.0
-Cflags: -I/home/vuhoang/tem_hum_sensor/install/include
-Libs: -L/home/vuhoang/tem_hum_sensor/install/lib 
-Requires: 

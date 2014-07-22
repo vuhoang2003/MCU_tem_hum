@@ -1,2 +1,0 @@
-set(Temp_Hum_MESSAGE_FILES "/home/vuhoang/tem_hum_sensor/src/Temp_Hum/msg/Num.msg")
-set(Temp_Hum_SERVICE_FILES "/home/vuhoang/tem_hum_sensor/src/Temp_Hum/srv/AddTwoInts.srv")

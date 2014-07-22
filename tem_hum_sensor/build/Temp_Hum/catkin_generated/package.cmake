@@ -1,7 +1,0 @@
-set(_CATKIN_CURRENT_PACKAGE "Temp_Hum")
-set(Temp_Hum_MAINTAINER "vuhoang <vuhoang@todo.todo>")
-set(Temp_Hum_DEPRECATED "")
-set(Temp_Hum_VERSION "0.0.0")
-set(Temp_Hum_BUILD_DEPENDS "roscpp" "rospy" "std_msgs" "message_generation")
-set(Temp_Hum_RUN_DEPENDS "message_runtime" "roscpp" "rospy" "std_msgs")
-set(Temp_Hum_BUILDTOOL_DEPENDS "catkin")

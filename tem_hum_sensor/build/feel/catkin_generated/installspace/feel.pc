@@ -1,8 +1,0 @@
-prefix=/home/vuhoang/tem_hum_sensor/install
-
-Name: feel
-Description: Description of feel
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/vuhoang/tem_hum_sensor/install/lib 
-Requires: 
